@@ -5,12 +5,12 @@ import { HomeComponent } from './home/home.component';
 import { TodoComponent } from './todo/todo.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
   { path: 'login', component: LoginComponent },
   { path: 'todo', component: TodoComponent },
 
   // redirect to home
-  { path: '**', redirectTo: '' }
+  { path: '**', redirectTo: 'home' }
 ];
 
 @NgModule({

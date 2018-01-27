@@ -20,7 +20,9 @@ import { TodoComponent } from './todo/todo.component';
     BrowserModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
-      { path: 'login', component: LoginComponent }
+      { path: 'home', component: HomeComponent },
+      { path: 'login', component: LoginComponent },
+      { path: 'todo', component: TodoComponent }
     ])
   ],
   providers: [],
