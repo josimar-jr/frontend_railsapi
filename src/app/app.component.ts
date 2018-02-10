@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { User } from './models/index';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'rails api - frontend';
+  currentUser: User;
+
+  isLoggedIn() {
+    return (this.currentUser !== undefined);
+  }
 }
