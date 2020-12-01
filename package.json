@@ -28,7 +28,7 @@
     "rxjs-compat": "^6.0.0-rc.0"
   },
   "devDependencies": {
-    "@angular/cli": "7.3.6",
+    "@angular/cli": "7.3.10",
     "@angular/compiler-cli": "^7.2.16",
     "@angular/language-service": "^7.2.16",
     "@types/jasmine": "~2.5.53",
